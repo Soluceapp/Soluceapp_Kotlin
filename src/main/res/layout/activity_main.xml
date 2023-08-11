@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Btn_acceder"
+        android:layout_width="122dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#883597"
+        android:text="@string/acc_der"
+        android:textColor="#F8F7F7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="189dp"
+        android:layout_height="36dp"
+        android:text="@string/soluceapp_kotlin"
+        android:textColor="#F8F4F4"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/Btn_acceder"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="114dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
